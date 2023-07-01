@@ -1,10 +1,10 @@
 package tsp;
 
 class ran {
-    public static int maxGenerations = 50;
+    public static int maxGenerations = 1000;
 
     public void run() {
-        int numCitites = 100;
+        int numCitites = 1000;
         City cities[] = new City[numCitites];
 
         for (int cityIndex = 0; cityIndex < numCitites; cityIndex++) {
